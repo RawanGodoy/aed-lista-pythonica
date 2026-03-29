@@ -14,4 +14,6 @@ def modify_guest_list(
     Returns:
         list[str]: lista atualizada
     """
-    pass
+    guests.remove(unavailable)
+    guests.append(new_guest)
+    return guests

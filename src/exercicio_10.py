@@ -8,4 +8,4 @@ def greet_names(names: list[str]) -> list[str]:
     Returns:
         list[str]: lista com mensagens "Hello, <name>!"
     """
-    pass
+    return [f"Hello, {i}!" for i in names]
